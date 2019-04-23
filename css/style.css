@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dokdo', cursive;
+}
+a{
+    text-transform: none;
+}
+li{
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+header{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+header nav{
+    background-color: #111111;
+    position: absolute;
+    top: 0;
+    left: -70%;
+    width: 70%;
+    height: 100vh;
+    overflow: hidden;
+    transition: all 1.7s;
+}
+header nav ul{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(50%);
+    z-index: 9999;
+    cursor: pointer;
+
+}
+#icon{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    cursor: pointer;
+
+}
+.open{
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+    pointer-events: none;
+    transition: all .5s;
+    -webkit-backface-visibility-: hidden;
+}
+#icon .cl0se{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    opacity: 0;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+    pointer-events: none;
+    transition: all .5s;
+    -webkit-backface-visibility-: hidden;
+    font-weight: 0px !important;
+    text-shadow: none !important;
+    line-height: 0px !important;
+    
+
+}
+#icon .line {
+    background-color: #ffffff;
+    width: 5px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    transition: all .5s;
+    border-radius: 5px;
+}
+.active{
+    color: #f5af18;
+}
+
+
+
+
+
+
+
+
